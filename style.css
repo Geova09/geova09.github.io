@@ -19,8 +19,9 @@ body, html {
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 50px 50px 60px 50px;	
-    position: fixed;
+	padding: 50px 50px 60px 50px;
+    position: relative;
+    left: 0;
     bottom: 0;
 }
 
