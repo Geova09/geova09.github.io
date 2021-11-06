@@ -11,14 +11,18 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://image.winudf.com/v2/image1/dG8uZGV2LmRldl9hbmRyb2lkX2ljb25fMTU1NjIzMzMzN18wNTE/icon.png?w=&fakeurl=1"
+      rel="icon"
+    />
     <title>My Site!</title>
   </head>
   <body>
     <div class="topnav" id="myTopnav">
       <a href="index.html" class="active">Home</a>
-      <a href="#news">News</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
-      <a href="#about">About</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
@@ -26,68 +30,264 @@
 
     <div class="hero-image">
       <div class="hero-text">
-        <h1 style="font-size: 50px">I am Geova</h1>
-        <div class="typewriter">
-          <h1>And I'm a Developer</h1>
+        <h1 id="myName" style="font-size: 50px">I'm Geova</h1>
+        <div id="myTypewriter" class="typewriter">
+          <h1>And I'm Web & Software Developer</h1>
         </div>
         <br />
-        <button>Hire me</button>
+        <a href="#contact"><button>Hire me</button></a>
       </div>
     </div>
-
-    <h1>Hello World</h1>
-
-    <footer class="footer-distributed">
-      <div class="footer-left">
-        <img src="img/logo.png" />
-        <h3>About<span>Geova</span></h3>
-
-        <p class="footer-links">
-          <a href="index.html">Home</a>
-          |
-          <a href="#news">News</a>
-          |
-          <a href="#contact">Contact</a>
-          |
-          <a href="#about">About</a>
-        </p>
-
-        <p class="footer-company-name">© 2021 Geova</p>
+    <section id="skills" class="skills">
+      <div class="wrapper">
+        <h1>Skills</h1>
+        <div class="cols">
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div
+                class="front"
+                style="
+                  background-image: url(https://www.freepik.com/blog/app/uploads/2019/02/2071346.jpg);
+                "
+              >
+                <div class="inner">
+                  <p>HTML5 & CSS3</p>
+                  <span>Bootstrap</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Responsive design compatible for all devices.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div
+                class="front"
+                style="
+                  background-image: url(https://www.freepik.com/blog/app/uploads/2019/02/2062415.jpg);
+                "
+              >
+                <div class="inner">
+                  <p>Git</p>
+                  <span>Version control</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Understanding the basic consepts of Git.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div
+                class="front"
+                style="
+                  background-image: url(https://techloft.gr/wp-content/uploads/2021/01/blog_three_things.png);
+                "
+              >
+                <div class="inner">
+                  <p>ES5 & ES6</p>
+                  <span>Javascript</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>
+                    Extensive experience with JS and jQuery. Recently start
+                    React.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div
+                class="front"
+                style="
+                  background-image: url(https://marvel-b1-cdn.bc0a.com/f00000000173332/www.openlogic.com/sites/openlogic/files/image/2020-07/image-blog-sql-database.jpg);
+                "
+              >
+                <div class="inner">
+                  <p>Java</p>
+                  <span>Android</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Good understanding of Java and experiment with Android.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div
+                class="front"
+                style="
+                  background-image: url(https://www.nutanix.com/content/dam/nutanix-cxo/thumbnails/database_thumb.jpg);
+                "
+              >
+                <div class="inner">
+                  <p>PHP</p>
+                  <span>Server side</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>
+                    Good understanding of PHP and I would like to learn Laravel.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div
+                class="front"
+                style="
+                  background-image: url(https://download.pingcap.com/images/blog/choosing-right-database-for-your-applications.png);
+                "
+              >
+                <div class="inner">
+                  <p>SQL</p>
+                  <span>SQL & MySQL</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>
+                    Deep understanding of databases and all of the consepts.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div
+                class="front"
+                style="
+                  background-image: url(https://images.techopedia.com/images/uploads/computer-hardware-electronics-hardware-logo-trademark-poster-building.jpg?w=800&h=0&mode=max&quality=70&scale=both);
+                "
+              >
+                <div class="inner">
+                  <p>CMS</p>
+                  <span>Wordpress & WooCommerce</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>
+                    Blog, e-shops and websites, planning to customize themes and
+                    plugins.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div
+                class="front"
+                style="
+                  background-image: url(https://www.kohezion.com/blog/wp-content/uploads/2014/08/4_examples.png);
+                "
+              >
+                <div class="inner">
+                  <p>IOT</p>
+                  <span>Internet of Things</span>
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Creating apps with raspberry pi.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="footer-center">
-        <div>
-          <i class="fa fa-map-marker"></i>
-          <p>
-            <span>Thessaloniki</span>
-            Greece
+    <section id="projects" class="projects">
+      <h1>Projects</h1>
+
+      <div class="parallax">
+        <br />
+        <br />
+        <h2 id="loading">Loading...</h2>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <footer class="footer-distributed">
+        <div class="footer-left">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQFNKpOAUSiwvtNcJyTROP7yJj5GNLS97uY1bqFm033lbYPAV78P66JJfldXUwml_0SOY&usqp=CAU"
+          />
+          <h3>About<span>Geova</span></h3>
+
+          <p class="footer-links">
+            <a href="index.html">Home</a>
+            |
+            <a href="#skills">Skills</a>
+            |
+            <a href="#projects">Projects</a>
+            |
+            <a href="#contact">Contact</a>
           </p>
+
+          <p class="footer-company-name">© 2021 Geova</p>
         </div>
 
-        <div>
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p>
+              <span>Thessaloniki</span>
+              Greece
+            </p>
+          </div>
+
+          <!--<div>
           <i class="fa fa-phone"></i>
           <p>+30 00000000</p>
+        </div>-->
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p>
+              <a href="mailto:vaswgeorgiadi09@gmail.com"
+                >vaswgeorgiadi09@gmail.com</a
+              >
+            </p>
+          </div>
         </div>
-        <div>
-          <i class="fa fa-envelope"></i>
-          <p><a href="mailto:me@home.gr">me@home.gr</a></p>
-        </div>
-      </div>
-      <div class="footer-right">
-        <p class="footer-company-about">
-          <span>About me</span>
-          Portfolio about my projects.
-        </p>
-        <div class="footer-icons">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <!--<a href="#"><i class="fa fa-twitter"></i></a>
+        <div class="footer-right">
+          <p class="footer-company-about">
+            <span>About me</span>
+            Portfolio about my Projects & Skills.
+          </p>
+          <div class="footer-icons">
+            <!--<a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
           <a href="#"><i class="fa fa-instagram"></i></a>-->
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-youtube"></i></a>
+            <a
+              href="https://www.linkedin.com/in/vasiliki-georgiadi-49a1a8167/"
+              target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+            <!-- <a href="#"><i class="fa fa-youtube"></i></a>-->
+          </div>
         </div>
-      </div>
-    </footer>
-
+      </footer>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
