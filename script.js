@@ -1,17 +1,4 @@
-function myFunction() {
-  const x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
-var messages = [
-  "And I'm Web & Software Developer",
-  "And I'm Web & Software Developer",
-  "And I'm Web & Software Developer",
-];
+var messages = ["Web and", "Software", "Developer"];
 var rank = 0;
 
 // Code for Chrome, Safari and Opera
@@ -37,4 +24,13 @@ function changeTxt(e) {
       "s steps(40, end), blink-caret .75s step-end infinite"; //  switch to the original set of animation
     rank === messages.length - 1 ? (rank = 0) : rank++; // if you have displayed the last message from the array, go back to the first one, else go to next message
   }, 1000);
+}
+
+function myFunction() {
+  const x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
